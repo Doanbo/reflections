@@ -2,6 +2,10 @@ git diff: compare two commits; two arguments - the two commit ids to compare.
 git clone: copy an entire repository;  one argument - the url of the repository to copy. 
 git checkout: reset all files to a previous commit;  one argument - the commit ID to restore. 
 git log: show all the commits; no arguments
+git init: create a new git
+git status: shows the files to be included in the next commit
+git add: add files to the staging area (will be added to the next commit)
+git reset <file>: removes files from the staging area 
 
 How did viewing a diff between two versions of a help file help you see the bug that was produced?
 Like this it was easier o spot the location where a bug could have been.
