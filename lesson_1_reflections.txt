@@ -1,0 +1,27 @@
+git diff: compare two commits; two arguments - the two commit ids to compare. 
+git clone: copy an entire repository;  one argument - the url of the repository to copy. 
+git checkout: reset all files to a previous commit;  one argument - the commit ID to restore. 
+git log: show all the commits; no arguments
+
+How did viewing a diff between two versions of a help file help you see the bug that was produced?
+Like this it was easier o spot the location where a bug could have been.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+I would be able to review my mistakes and prevent to do them in the future.
+
+What do you think about the pros and cons of manually choosing when to create a commit like you do in Git, vs having versions automatically saved, like Google docs does?
+pro: it's not saving unuseful parts of the code; you can choose timepoints where you fixed logically connected codes
+con: if you haven't saved for some time all work might get lost
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+I think Git is commited to coding, where mutliple files are often of interest for one commit in the same project, whereas GDocs concentrates on e.g. word files, where a change of one file is more often a commited change in a project.
+
+How can you use the commands git log and git diff to view the history of files?
+git log: shows the history of the commits
+git diff id1 id2: shows the difference between the commits id1 and id2; no complete commit ids are necessary
+
+How might using version control make you more confident to make changes that could break something?
+because i always can return to a previous functioning version
+
+Now that you have your workspace set up, what do you want to try using Git for?
+For programming in androids studio
