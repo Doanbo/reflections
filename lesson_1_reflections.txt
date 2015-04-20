@@ -1,6 +1,7 @@
 git diff id1 id2: compare two commits; two arguments - the two commit ids to compare. 
 git diff: compare working directory and staging directory
 git diff --staging: compare staging directory and repository commit1
+git show <id>: shows the difference between a commit and its parent
 git clone: copy an entire repository;  one argument - the url of the repository to copy. 
 git checkout: reset all files to a previous commit;  one argument - the commit ID to restore. 
 git checkout master: goes back to the master head
@@ -8,7 +9,18 @@ git log: show all the commits; no arguments
 git init: create a new git
 git status: shows the files to be included in the next commit
 git add: add files to the staging area (will be added to the next commit)
+git commit: make a commit
 git reset <file>: removes files from the staging area 
+git branch <xxx>: creates a new branch
+git branch -d <xxx>: deletes the label of a branch (also deletes the commits if branch is not merged with another branch)
+git merge commit1 commit2: used to merge towo commits, should always be executed in the branch that will go forward
+git remote: shows the current remote names
+git remote add <origin> <url>: adds a remote, where origin is the name
+git remote -v: provides more information about the remotes
+git remote set-url <origin> <new url>: sets a new url
+git push <origin> <branch>: send to github
+git pull <origin> <branch>
+
 
 
 How did viewing a diff between two versions of a help file help you see the bug that was produced?
