@@ -1,3 +1,4 @@
+git init: create a new git
 git diff id1 id2: compare two commits; two arguments - the two commit ids to compare. 
 git diff: compare working directory and staging directory
 git diff --staging: compare staging directory and repository commit1
@@ -6,7 +7,6 @@ git clone: copy an entire repository;  one argument - the url of the repository 
 git checkout: reset all files to a previous commit;  one argument - the commit ID to restore. 
 git checkout master: goes back to the master head
 git log: show all the commits; no arguments
-git init: create a new git
 git status: shows the files to be included in the next commit
 git add: add files to the staging area (will be added to the next commit)
 git commit: make a commit
@@ -19,8 +19,9 @@ git remote add <origin> <url>: adds a remote, where origin is the name
 git remote -v: provides more information about the remotes
 git remote set-url <origin> <new url>: sets a new url
 git push <origin> <branch>: send to github
-git pull <origin> <branch>
-
+git pull <origin> <branch>: download(fetch) from remote and merge to the branch
+git fetch <origin>: download from remote (without merging directly)
+- working together: make a new branch, checkout that branch, make a chance, add, commit, push the new branch, go to guthub, to the new branch, click on pull-request
 
 
 How did viewing a diff between two versions of a help file help you see the bug that was produced?
